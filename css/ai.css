@@ -106,12 +106,13 @@
         #chat-icon{
         position: fixed;
             bottom: 50px;
-            right: 100px;
+            left: 100px;
                 z-index:10;
         }
         #chat-window{
            position: fixed;
             z-index: 10;
+                left:50px;
            
         }
 }
