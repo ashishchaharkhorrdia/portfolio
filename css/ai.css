@@ -102,12 +102,16 @@
         }
 
 
-@media (max-width: 980px) {
+@media only screen and (max-width: 600px) {
         #chat-icon{
         position: fixed;
             bottom: 50px;
             right: 100px;
                 z-index:10;
         }
-        
+        #chat-window{
+           position: fixed;
+            z-index: 10;
+           
+        }
 }
